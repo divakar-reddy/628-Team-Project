@@ -1,0 +1,18 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+.app-footer {
+  background: #2d2d2d;
+  color: #aaa;
+  text-align: center;
+  padding: 1.25rem;
+  font-size: 0.85rem;
+}

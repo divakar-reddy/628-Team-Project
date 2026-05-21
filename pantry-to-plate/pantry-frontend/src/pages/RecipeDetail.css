@@ -1,0 +1,192 @@
+.back-btn {
+  background: none;
+  border: none;
+  color: #e67e22;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  padding: 0;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+.detail-hero {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  margin-bottom: 2rem;
+}
+
+.detail-tags {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.detail-category {
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detail-ai-tag {
+  background: #fde8c0;
+  color: #c87941;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.detail-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.detail-description {
+  color: #777;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.detail-meta {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.meta-item span {
+  font-size: 1.4rem;
+}
+
+.meta-item div {
+  display: flex;
+  flex-direction: column;
+}
+
+.meta-item small {
+  font-size: 0.72rem;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.meta-item strong {
+  font-size: 0.9rem;
+  color: #2d2d2d;
+}
+
+.success-banner-inline {
+  background: #eafaf1;
+  border: 1px solid #a9dfbf;
+  color: #1e8449;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.88rem;
+}
+
+.planner-add-btn {
+  background: #e67e22;
+  color: #fff;
+  border: none;
+  padding: 0.65rem 1.5rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.planner-add-btn:hover {
+  background: #d35400;
+}
+
+.detail-columns {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.ingredients-section,
+.instructions-section {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.75rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+}
+
+.ingredients-section h2,
+.instructions-section h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.ingredient-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ingredient-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid #f5f5f5;
+  font-size: 0.9rem;
+}
+
+.ing-qty {
+  color: #e67e22;
+  font-weight: 600;
+  min-width: 60px;
+  font-size: 0.85rem;
+}
+
+.ing-name {
+  color: #444;
+  text-transform: capitalize;
+}
+
+.steps-list {
+  padding-left: 1.5rem;
+}
+
+.steps-list li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #f5f5f5;
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .detail-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-title {
+    font-size: 1.5rem;
+  }
+}

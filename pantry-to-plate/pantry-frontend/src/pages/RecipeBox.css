@@ -1,0 +1,75 @@
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.box-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.box-header p {
+  color: #888;
+  margin-top: 0.25rem;
+}
+
+.add-btn {
+  background: #e67e22;
+  color: #fff;
+  border: none;
+  padding: 0.65rem 1.5rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.add-btn:hover {
+  background: #d35400;
+}
+
+.form-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+}
+
+.form-card h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #2d2d2d;
+}
+
+.recipe-grid-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.edit-btn {
+  background: #f0f0f0;
+  border: none;
+  color: #555;
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 0 0 14px 14px;
+  transition: background 0.2s;
+}
+
+.edit-btn:hover {
+  background: #e67e22;
+  color: #fff;
+}

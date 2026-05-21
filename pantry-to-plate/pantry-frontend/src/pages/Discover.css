@@ -1,0 +1,101 @@
+.discover-header {
+  margin-bottom: 2rem;
+}
+
+.discover-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2d2d2d;
+}
+
+.discover-header p {
+  color: #888;
+  margin-top: 0.25rem;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #fff;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1.25rem;
+  transition: border-color 0.2s;
+}
+
+.search-bar:focus-within {
+  border-color: #e67e22;
+}
+
+.search-icon {
+  font-size: 1.1rem;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 0.95rem;
+  background: transparent;
+  color: #2d2d2d;
+}
+
+.clear-btn {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.category-chips {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.chip {
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  border: 1.5px solid #e0e0e0;
+  background: #fff;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #555;
+  transition: all 0.2s;
+}
+
+.chip:hover {
+  border-color: #e67e22;
+  color: #e67e22;
+}
+
+.chip.active {
+  background: #e67e22;
+  border-color: #e67e22;
+  color: #fff;
+}
+
+.success-banner {
+  background: #eafaf1;
+  border: 1px solid #a9dfbf;
+  color: #1e8449;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .recipe-grid {
+    grid-template-columns: 1fr;
+  }
+}
