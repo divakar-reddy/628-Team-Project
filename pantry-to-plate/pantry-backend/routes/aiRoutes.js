@@ -12,7 +12,7 @@ router.post('/generate', async (req, res) => {
 
   const apiKey = process.env.GEMINI_API_KEY;
 
-  if (!apiKey || apiKey === 'your_gemini_api_key_here') {
+  if (!apiKey || apiKey === 'AIzaSyAtl-pCiFVg9ujz6_ApXN-Lp_jRn3k3RRE') {
     // Fallback mock response if no API key is configured
     return res.json({
       title: 'Chef AI Mock Recipe',
